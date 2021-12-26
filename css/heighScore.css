@@ -1,0 +1,17 @@
+body{
+    color: #fff;
+}
+
+#highScoresList{
+    list-style: none;
+    margin-bottom: 4rem;
+}
+.high-score{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+@media screen and(max-width:400px) {
+    #finalScore{
+        font-size: 2rem !important;
+    }
+}
